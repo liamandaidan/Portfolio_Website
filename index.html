@@ -147,7 +147,8 @@
             <hr class="star-dark mb-5">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
-                    <form id="contactForm" name="sentMessage" novalidate="novalidate">
+                    <form id="contactForm" name="sentMessage" novalidate="novalidate" target="_blank"
+                        action="https://formsubmit.co/liammclaughlinis@hotmail.com" method="POST">
                         <div class="control-group">
                             <div class="mb-0 form-floating controls pb-2"><input class="form-control" type="text"
                                     id="name" required="" placeholder="Name"><label
@@ -156,17 +157,17 @@
                         </div>
                         <div class="control-group">
                             <div class="mb-0 form-floating controls pb-2"><input class="form-control" type="email"
-                                    id="email" required="" placeholder="Email Address"><label class="form-label">Email
+                                    id="email" name="email" required="" placeholder="Email Address"><label class="form-label">Email
                                     Address</label><small class="form-text text-danger help-block"></small></div>
                         </div>
                         <div class="control-group">
                             <div class="mb-0 form-floating controls pb-2"><input class="form-control" type="tel"
-                                    id="phone" required="" placeholder="Phone Number"><label class="form-label">Phone
+                                    id="phone" name="phone" required="" placeholder="Phone Number"><label class="form-label">Phone
                                     Number</label><small class="form-text text-danger help-block"></small></div>
                         </div>
                         <div class="control-group">
                             <div class="mb-5 form-floating controls pb-2"><textarea class="form-control" id="message"
-                                    required="" placeholder="Message" style="height: 150px;"></textarea><label
+                                    required="" name="message" placeholder="Message" style="height: 150px;"></textarea><label
                                     class="form-label">Message</label><small
                                     class="form-text text-danger help-block"></small></div>
                         </div>
@@ -182,8 +183,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4 mb-5 mb-lg-0">
-                    <h4 class="text-uppercase mb-4">Location</h4>
-                    <p>Calgary, Alberta, Canada</p>
+                    <!-- <h4 class="text-uppercase mb-4">Location</h4>
+                    <p>Calgary, Alberta, Canada</p> -->
                 </div>
                 <div class="col-md-4 mb-5 mb-lg-0">
                     <h4 class="text-uppercase">Around the Web</h4>
@@ -200,10 +201,10 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-4">
+                <!-- <div class="col-md-4">
                     <h4 class="text-uppercase mb-4">Contact Me</h4>
                     <p class="lead mb-0"><span>liammclaughlinis@hotmail.com</span></p>
-                </div>
+                </div> -->
             </div>
         </div>
     </footer>
@@ -340,10 +341,16 @@
                             <div class="col-lg-8 mx-auto">
                                 <h2 class="text-uppercase text-secondary mb-0">Blogs</h2>
                                 <hr class="star-dark mb-5"><img class="img-fluid mb-5"
-                                    src="assets/img/portfolio/Python.png" >
-                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque
-                                    assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam
-                                    velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+                                    src="assets/img/portfolio/Python.png">
+                                <p class="mb-5"><a target="_blank"
+                                        href="https://medium.com/@liammclaughlinis/learning-python-abf422ca9d9">Why you
+                                        should learn Python</a>
+                                </p>
+                                <hr class="star-dark mb-5"><img class="img-fluid mb-5"
+                                    src="assets/img/portfolio/PythonSum.png">
+                                <p class="mb-5"><a target="_blank"
+                                        href="https://medium.com/@liammclaughlinis/python-short-problems-b8f351db6501">Python
+                                        Short Problems</a>
                                 </p>
                             </div>
                         </div>
