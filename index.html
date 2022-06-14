@@ -28,10 +28,10 @@
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
                             href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#ab">About</a>
+                    </li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
-                            href="#about">About</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
-                            href="#contact">Contact</a></li>
+                            href="#projects">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -41,7 +41,7 @@
                 src="assets/img/profilepic.png">
             <h1 data-bss-hover-animate="bounce">Liam McLaughlin</h1>
             <hr data-aos="zoom-in-up" class="star-light">
-            <!-- <h2 data-bss-hover-animate="bounce" class="font-weight-light mb-0">Software Engineer - Web - Full-stack</h2> -->
+            <h2 data-bss-hover-animate="bounce" class="font-weight-light mb-0">Software Engineer - Web - Full-stack</h2>
         </div>
     </header>
     <section id="portfolio" class="portfolio">
@@ -70,21 +70,27 @@
                                     class="fa fa-search-plus fa-3x"></i></div>
                         </div><img class="img-fluid" src="assets/img/portfolio/flightsGui.png">
                     </a></div>
-                <!-- <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" href="#portfolio-modal-4"
+                <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" href="#portfolio-modal-4"
                         data-bs-toggle="modal">
                         <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
                             <div class="text-center text-white my-auto portfolio-item-caption-content w-100"><i
                                     class="fa fa-search-plus fa-3x"></i></div>
-                        </div><img class="img-fluid" src="assets/img/portfolio/game.png">
+                        </div><img class="img-fluid" src="assets/img/portfolio/blogs.png">
                     </a></div>
-                <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" href="#portfolio-modal-5"
+                <div class="col-md-6 col-lg-4">
+                    <a class="d-block mx-auto portfolio-item" href="https://github.com/liamandaidan/Mysticraft"
                         data-bs-toggle="modal">
                         <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
                             <div class="text-center text-white my-auto portfolio-item-caption-content w-100"><i
                                     class="fa fa-search-plus fa-3x"></i></div>
-                        </div><img class="img-fluid" src="assets/img/portfolio/safe.png">
-                    </a></div>
-                <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" href="#portfolio-modal-6"
+                        </div>
+                        <video width="400" height="400" autoplay loop muted onclick="vidLink()">
+                            <source src="assets/img/portfolio/Modding.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </a>
+                </div>
+                <!-- <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" href="#portfolio-modal-6"
                         data-bs-toggle="modal">
                         <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
                             <div class="text-center text-white my-auto portfolio-item-caption-content w-100"><i
@@ -94,7 +100,7 @@
             </div>
         </div>
     </section>
-    <section class="text-white bg-primary mb-0" id="about">
+    <section class="text-white bg-primary mb-0" id="ab">
         <div class="container">
             <h2 class="text-uppercase text-center text-white">About</h2>
             <hr class="star-light mb-5">
@@ -105,23 +111,37 @@
                         2013.I have constantly been programming and learning new ways
                         to code. I graduated high school with advanced placement in computer science. I also just
                         graduated with a 2-year diploma in SAIT completed in just over a year. I often find myself
-                        working with object-oriented practices and agile development.</p>
+                        working with object-oriented practices and agile development. Software development is a
+                        constantly changing industry </p>
                 </div>
                 <div class="col-lg-4 me-auto">
-                    <p class="lead">Software development is a
-                        constantly changing industry with new technology, and while some may shy away, I find myself
+                    <p class="lead"> with new technology, and while some may shy away, I find myself
                         constantly learning and looking to adapt to recent trends. I have dabbled with many languages,
                         including Java, C++, JavaScript, Python, React, Node, TypeScript, and c#. During my time at
                         SAIT, I spearheaded group projects. Creating repositories on GitHub, merging/managing branches,
                         and constantly testing our code. I always welcomed the opportunity to review code and modify
                         group code to make each individual's components work together.</p>
                 </div>
+                <div class="d-flex justify-content-center">
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a
+                                class="btn btn-outline-light text-center btn-social rounded-circle" role="button"
+                                href="#"><i class="fa fa-github fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a
+                                class="btn btn-outline-light text-center btn-social rounded-circle" role="button"
+                                href="#"><i class="fa fa-linkedin fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a
+                                class="btn btn-outline-light text-center btn-social rounded-circle" role="button"
+                                href="#"><i class="fa fa-youtube fa-fw"></i></a></li>
+                        </li>
+                    </ul>
+                </div>
             </div>
             <!-- <div class="text-center mt-4"><a class="btn btn-outline-light btn-xl" role="button" href="#"><i
                         class="fa fa-download me-2"></i><span>Download Now!</span></a></div> -->
         </div>
     </section>
-    <section id="contact">
+    <section id="projects">
         <div class="container">
             <h2 class="text-uppercase text-center text-secondary mb-0">Contact Me</h2>
             <hr class="star-dark mb-5">
@@ -181,8 +201,8 @@
                     </ul>
                 </div>
                 <div class="col-md-4">
-                    <h4 class="text-uppercase mb-4">About Freelancer</h4>
-                    <p class="lead mb-0"><span>Freelance is a free to use, open source Bootstrap theme.&nbsp;</span></p>
+                    <h4 class="text-uppercase mb-4">Contact Me</h4>
+                    <p class="lead mb-0"><span>liammclaughlinis@hotmail.com</span></p>
                 </div>
             </div>
         </div>
@@ -309,7 +329,7 @@
             </div>
         </div>
     </div>
-    <!-- <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-4">
+    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-4">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header"><button type="button" class="btn-close" data-bs-dismiss="modal"
@@ -318,9 +338,9 @@
                     <div class="container text-center">
                         <div class="row">
                             <div class="col-lg-8 mx-auto">
-                                <h2 class="text-uppercase text-secondary mb-0">Project Name</h2>
+                                <h2 class="text-uppercase text-secondary mb-0">Blogs</h2>
                                 <hr class="star-dark mb-5"><img class="img-fluid mb-5"
-                                    src="assets/img/portfolio/game.png">
+                                    src="assets/img/portfolio/Python.png" >
                                 <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque
                                     assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam
                                     velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
@@ -384,13 +404,18 @@
                 <div class="modal-footer pb-5"><a
                         class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button"
                         data-bs-dismiss="modal"><i class="fa fa-close"></i>&nbsp;Close Project</a></div>
-            </div> -->
-    </div>
+            </div>
+        </div>
     </div>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="assets/js/freelancer.js"></script>
+    <script>
+        function vidLink() {
+            window.open('https://github.com/liamandaidan/Mysticraft');
+        }
+    </script>
 </body>
 
 </html>
